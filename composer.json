@@ -1,0 +1,32 @@
+{
+  "name": "subvitaminetm/googlevision",
+  "description": "A simple php library for the google cloud vision API ",
+  "keywords": [
+    "google cloud vision api",
+    "computer vision",
+    "machine learning",
+    "php"
+  ],
+  "type": "package",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3 || ^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wapnen Gowok",
+      "email": "wapneng@gmail.com"
+    },
+    {
+      "name": "Dylan Duault",
+      "email": "dylan@busineyss.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GoogleCloudVision\\": "GoogleCloudVision/"
+    }
+  },
+  "version": "1.0.1",
+  "minimum-stability": "stable"
+}
